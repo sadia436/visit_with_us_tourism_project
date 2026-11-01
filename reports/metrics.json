@@ -1,51 +1,51 @@
 {
   "best_model": "Tuned Random Forest",
-  "best_cv_roc_auc": 0.9469864288617611,
-  "test_accuracy": 0.9067796610169492,
-  "test_precision": 0.9456521739130435,
-  "test_recall": 0.5471698113207547,
-  "test_f1": 0.6932270916334662,
-  "test_roc_auc": 0.9686807539626413,
+  "best_cv_roc_auc": 0.9459756394715203,
+  "test_accuracy": 0.927360774818402,
+  "test_precision": 0.8413793103448276,
+  "test_recall": 0.7672955974842768,
+  "test_f1": 0.8026315789473685,
+  "test_roc_auc": 0.9681621453424231,
   "best_params": {
     "model__max_depth": null,
     "model__min_samples_leaf": 1,
     "model__min_samples_split": 2,
-    "model__n_estimators": 250
+    "model__n_estimators": 150
   },
   "confusion_matrix": [
     [
-      662,
-      5
+      644,
+      23
     ],
     [
-      72,
-      87
+      37,
+      122
     ]
   ],
   "classification_report": {
     "0": {
-      "precision": 0.9019073569482289,
-      "recall": 0.992503748125937,
-      "f1-score": 0.9450392576730906,
+      "precision": 0.9456681350954479,
+      "recall": 0.9655172413793104,
+      "f1-score": 0.9554896142433235,
       "support": 667.0
     },
     "1": {
-      "precision": 0.9456521739130435,
-      "recall": 0.5471698113207547,
-      "f1-score": 0.6932270916334662,
+      "precision": 0.8413793103448276,
+      "recall": 0.7672955974842768,
+      "f1-score": 0.8026315789473685,
       "support": 159.0
     },
-    "accuracy": 0.9067796610169492,
+    "accuracy": 0.927360774818402,
     "macro avg": {
-      "precision": 0.9237797654306361,
-      "recall": 0.7698367797233459,
-      "f1-score": 0.8191331746532784,
+      "precision": 0.8935237227201378,
+      "recall": 0.8664064194317935,
+      "f1-score": 0.879060596595346,
       "support": 826.0
     },
     "weighted avg": {
-      "precision": 0.9103279694148215,
-      "recall": 0.9067796610169492,
-      "f1-score": 0.8965669399971824,
+      "precision": 0.925593167619239,
+      "recall": 0.927360774818402,
+      "f1-score": 0.9260653677396227,
       "support": 826.0
     }
   }
